@@ -1,0 +1,62 @@
+* {
+    cursor: url("../images/shoot7black.png") 25 25, auto;
+    overflow: hidden;
+}
+.target:hover,
+.bomb {
+    cursor: url("../images/shoot7red.png") 25 25, auto;
+}
+#backgroundImage {
+    width: 100%;
+    height: -webkit-fill-available;
+}
+.font-size-30 {
+    font-size: 30px;
+}
+#bgImage {
+    width: 100%;
+    height: inherit;
+    margin: 0;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    z-index: -1;
+}
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.infoLevel {
+    position: absolute;
+    bottom: 0;
+    left: 47%;
+}
+#ducks {
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.fly {
+    position: absolute;
+}
+.fadeOut {
+    opacity: 0;
+    transition: 2s;
+}
+
+/*Style Bomb*/
+.bomb {
+    position: absolute;
+    top: 0;
+    width: 85px;
+    height: 115px;
+}
+
+.bombAfter {
+    width: 250px;
+    height: 300px;
+}
