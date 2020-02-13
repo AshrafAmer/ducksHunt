@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Document</title>
+        <link rel="stylesheet" href="css/pageOne.css" />
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/jquery-ui.js"></script>
+        <script src="js/mainPage.js"></script>
+        <script src="js/Page1Jquery.js"></script>
+    </head>
+    <body>
+        <img id="background-page" class="background-img" src="images/3.jpg" />
+        <div id="error"></div>
+        <section>
+            <img src="images/birds.gif" alt="duck_walking" id="birds" />
+        </section>
+
+        <section id="form">
+            <input
+                id="playerName"
+                type="text"
+                name="userName"
+                placeholder="Your Name Here"
+            />
+            <input
+                checked
+                type="radio"
+                value="level-1"
+                name="level"
+                id="easy"
+                class="level"
+            />
+            <label for="easy" class="radiomark">Easy</label>
+            <input
+                type="radio"
+                value="level-2"
+                name="level"
+                id="hard"
+                class="level"
+            />
+            <label for="hard" class="radiomark">Hard</label>
+            <a href="pages/page2.html" id="startPlay"
+                ><input type="button" name="submit" value="Start"
+            /></a>
+        </section>
+        <audio
+            id="audio"
+            src="audio/Winchester12-RA_The_Sun_God-1722751268.mp3"
+        ></audio>
+    </body>
+</html>
