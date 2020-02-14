@@ -1,9 +1,8 @@
 * {
     cursor: url("../images/shoot7black.png") 25 25, auto;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
-.target:hover,
-.bomb {
+.target:hover{
     cursor: url("../images/shoot7red.png") 25 25, auto;
 }
 #backgroundImage {
@@ -59,4 +58,9 @@
 .bombAfter {
     width: 250px;
     height: 300px;
+}
+.sa-button-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
