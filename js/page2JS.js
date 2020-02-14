@@ -211,6 +211,9 @@ function interval(ducks, name, _levelType, _player, _score) {
                                         currentPlayerName,
                                         startScore
                                     );
+                                    if (levelType === "level-2") {
+                                        bombInterval(ducks);
+                                    }
                                 }
                             }
                         );
