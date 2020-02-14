@@ -14,9 +14,9 @@ To run this code on your local Server => open `index.html`.
 
 ## Author
 
-Ashraf Amer
-Muhammed El-najar
-Muhammed Farag
+* Ashraf Amer,
+* Muhammed El-najar,
+* Muhammed Farag
 
 ## License
 
